@@ -117,6 +117,12 @@
         padding: 10px;
         width: 50%;
     }
+    .heading h1{
+        font-size: 30px;
+    }
+    .heading p{
+        font-size: medium;
+    }
 }
 @media only screen and (max-width: 910px) {
     .treatment-card{
@@ -158,7 +164,7 @@
         padding: 0 0px;
     }
     .heading h1{
-        font-size: 30px;
+        font-size: 22px;
         color: blue;
     }
     .step-inner i{
@@ -225,7 +231,6 @@
         margin: 10px;
     }
     .footer{
-        
         justify-content: center;
     }
     
@@ -369,6 +374,16 @@
     .treatment-card{
         width: 85%;
 
+    }.footer-card{
+        width: 90%;
     }
     
+}
+@media only screen and (max-width: 410px) {
+    .nav-book a{
+        padding: 7px 10px;
+    font-size: 15px;
+    margin: 0px;
+
+    }
 }
